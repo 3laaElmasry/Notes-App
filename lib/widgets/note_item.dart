@@ -6,7 +6,7 @@ class NoteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 8),
+      margin: const EdgeInsets.symmetric(vertical: 4),
       padding: const EdgeInsets.only(
         top: 24,
         bottom: 24,
@@ -52,7 +52,7 @@ class NoteItem extends StatelessWidget {
               "May1, 2022",
               style: TextStyle(
                 color: Colors.black.withOpacity(0.4),
-                fontSize: 16,
+                fontSize: 18,
               ),
             ),
           ),
