@@ -16,7 +16,7 @@ class CustomSearchIcon extends StatelessWidget {
         width: 46,
         child: const Icon(
           Icons.search,
-          size: 30,
+          size: 25,
         ),
       ),
     );
