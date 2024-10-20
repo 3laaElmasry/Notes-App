@@ -2,14 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:notes_app/widgets/constatns_file.dart';
 
 class CustomAddBotton extends StatelessWidget {
-  const CustomAddBotton({super.key});
+  const CustomAddBotton({super.key, this.onTap});
 
+  final void Function()? onTap;
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 16),
       child: InkWell(
-        onTap: () {},
+        onTap: onTap,
         child: Container(
           padding: const EdgeInsets.symmetric(vertical: 12),
           decoration: BoxDecoration(
