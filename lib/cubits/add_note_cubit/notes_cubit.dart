@@ -4,8 +4,8 @@ import 'package:notes_app/cubits/add_note_cubit/notes_state.dart';
 import 'package:notes_app/models/note_model.dart';
 import 'package:notes_app/widgets/constatns_file.dart';
 
-class NotesCubit extends Cubit<NotesState> {
-  NotesCubit() : super(AddNotesIntile());
+class AddNoteCubit extends Cubit<NotesState> {
+  AddNoteCubit() : super(AddNotesIntile());
 
   addNote(NoteModel note) async {
     emit(AddNotesLoading());
